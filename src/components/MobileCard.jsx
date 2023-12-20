@@ -21,7 +21,7 @@ const MobileCard = ({ data }) => {
                 </div>
 
                 <div>
-                    <Link to={`/phone/${data?._id}`} className="btn btn-neutral">View Details</Link>
+                    <Link to={`/phone/${data?._id}`} className="md:btn btn btn-sm md:btn-neutral btn-neutral">View Details</Link>
                 </div>
             </div>
         </div>

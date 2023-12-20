@@ -1,6 +1,7 @@
 import {useQuery} from "@tanstack/react-query";
 import { axiosSecure } from "../hooks/axiosSecure";
 import MobileCard from "./MobileCard";
+import { Link } from "react-router-dom";
 
 const FeaturedItems = () => {
     const {data} = useQuery({
@@ -19,6 +20,12 @@ const FeaturedItems = () => {
                 {
                     data?.slice(0, 6).map(item => <MobileCard key={item?._id} data={item}></MobileCard>)
                 }
+            </div>
+
+            <div className="text-center py-16">
+                <Link to={"/all-products"}
+                className="md:btn btn md:btn-warning btn-warning btn-sm"
+                >View All</Link>
             </div>
         </div>
     );
