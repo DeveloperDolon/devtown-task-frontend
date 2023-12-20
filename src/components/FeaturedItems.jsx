@@ -11,7 +11,7 @@ const FeaturedItems = () => {
             return res.data;
         }
     })
-    console.log(data)
+    
     return (
         <div className="md:mt-32 mt-24">
             <h1 className="md:text-6xl text-4xl font-bold text-center">Featured Items</h1>

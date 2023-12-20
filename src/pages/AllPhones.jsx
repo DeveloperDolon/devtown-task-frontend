@@ -1,10 +1,23 @@
-
+import { useState } from "react";
+import { axiosSecure } from "../hooks/axiosSecure";
+import {useQuery} from "@tanstack/react-query";
 
 const AllPhones = () => {
+    const [search, setSearch] = useState(null);
+
+    const {data} = useQuery({
+        queryKey: ["access-phones", search],
+        queryFn: async () => {
+            const res = await axiosSecure.get(`/all-phones?searchQuery=${search}`);
+            return res.data;
+        }
+    })
 
     const setSearchQuery = (e) => {
-        console.log(e);
+        setSearch(e);
     }
+
+    console.log(data);
 
     return (
         <div className="container mx-auto">
