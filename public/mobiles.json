@@ -1,0 +1,133 @@
+[
+    {
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2023/11/Tecno-Spark-20C-white.webp",
+      "price": 799.99,
+      "name": "Tecno Spark 20C",
+      "type": "Flagship",
+      "processor": "MediaTek Helio G36",
+      "memory": {
+        "ram": "8GB",
+        "storage": "128GB"
+      },
+      "os": "Android 13",
+      "details": "Tecno Spark 20C comes with a few charming colors. If you like gradient finish, pick the mystery white model. Those who like darker tones choose the gravity black option. The alpenglow gold color has a shiny, glowing effect to it and the magic skin color is a greenish tone. As you can see from the pictures above, it has an iPhone-like rear camera module. The center punch-hole in the screen turns into a “dynamic port” to show you charging status, but you can turn it off also if that’s annoying for you. Even though this kind of design isn’t that uncommon anymore, it still stands out. You can consider it if you are looking for the freshest, fashionable style. The screen is a 6.6-inch HD+ IPS one with a 90Hz refresh rate support."
+    },
+    {
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2023/12/Vivo-Y27s-burgundy-black.webp",
+      "price": 499.99,
+      "name": "Vivo Y27s",
+      "type": "Mid-range",
+      "processor": "Qualcomm Snapdragon 680 4G",
+      "memory": {
+        "ram": "8GB",
+        "storage": "128GB"
+      },
+      "os": "Android 13 ",
+      "details":"Vivo Y27s has two different variants. One has a punch-hole screen, and another one has a waterdrop notch screen. We are getting the waterdrop notch model, which is a very definite negative side of this device considering its mid-range pricing. There is no screen protection, the body is made of plastic. That’s very low build quality at this cost. However, the only advantage here is its IP54 dust and splash resistance feature. The back side also has a bit of a shiny glitter effect (also AG / anti glare) which may amuse the consumers. "
+    },
+    {
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2023/09/Oppo-A18-blue.webp",
+      "price": 299.99,
+      "name": "Oppo A18",
+      "type": "Budget",
+      "processor": "MediaTek Helio G85",
+      "memory": {
+        "ram": "4GB",
+        "storage": "128GB"
+      },
+      "os": "MIUI 12",
+      "details": "Oppo A18 is the lowest-priced Oppo A series phone in the 2023 lineup. The design is particularly intriguing as it looks similar to the mid-range A series phones. The back part has a shimmering effect under sunlight. It has a glossy finish and does not attract fingerprints that much, which is a plus point. However, you’ll get a typical V-notch on the front. It comes with all the convenient ports such as USB Type-C, dual SIM; 3.5mm headphone jack and external memory card slot."
+    },
+    {
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2023/08/Realme-C51.jpg.webp",
+      "price": 120.99,
+      "name": "Realme C51",
+      "type": "Flagship",
+      "processor": "Unisoc Tiger T612 (12 nm)",
+      "memory": {
+        "ram": "4GB",
+        "storage": "128GB"
+      },
+      "os": "Android 13",
+      "details": "The very first thing that will catch your sight about the Realme C51 is its outlook. Its dual tone back panel with the darker shade top and lighter shade bottom with matt finish looks unique and lovely. The rear camera setup and the U-notch brings an umami feeling to it. It’s simple, but mastering the simplicity is an art and Realme has done it fairly well in this case. That being said, the body is still made of full-on plastic without any dust or splash resistance and the screen has no protection, which significantly reduces its value for money."
+    },
+    {
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2023/09/Apple-iPhone-15-Pro-Max-Natural-Titanium.webp",
+      "price": 599.99,
+      "name": "Apple iPhone 15 Pro Max",
+      "type": "Mid-range",
+      "processor": "Apple A17 Pro (3 nm)",
+      "memory": {
+        "ram": "8GB",
+        "storage": "256/512GB/1TB"
+      },
+      "os": "iOS 17",
+      "details": "Apple iPhone 15 Pro Max appears with a maximum offer in terms of build, design, display, performance, camera and even additional features. It has one of the finest 6.7-inch Quad HD+ LTPO Super Retina XDR OLED displays with a Dynamic Island Notch design on top. The outer layer of the frame is made of durable titanium material and the body is waterproof with corning-made glasses on the front and backside. The weight is slightly (19 grams) lighter compared to last year’s 14 Pro Max model."
+    },
+    {
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2023/09/Apple-iPhone-15-Plus-pink.webp",
+      "price": 349.99,
+      "name": "Apple iPhone 15 Plus",
+      "type": "Budget",
+      "processor": "Apple A16 Bionic (4 nm)",
+      "memory": {
+        "ram": "6GB",
+        "storage": "128/256/512GB"
+      },
+      "os": "iOS 17",
+      "details": "Apple iPhone 15 Plus phone model is coming with a  6.7 inches Super Retina XDR OLED 1290 x 2796 pixels screen. It has a dynamic island notch design on the front. The back camera is dual 48+12 Megapixel with advanced features such as pixel-shift OIS, dual Pixel PDAF and also an ultrawide lens. There is 4K video recording with Dolby Vision HDR, Cinematic mode and so on. The front one is of Dual 12 MP and SL 3D camera also with 4K recording and cinematic mode."
+    },
+    {
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2023/09/Apple-iPhone-15-blue.webp",
+      "price": 749.99,
+      "name": "Apple iPhone 15",
+      "type": "Flagship",
+      "processor": "Apple A16 Bionic (4 nm)",
+      "memory": {
+        "ram": "6GB",
+        "storage": "128/256/512GB"
+      },
+      "os": "iOS 17",
+      "details": "Apple iPhone 15 comes with a 6.1 inches Super Retina XDR OLED 1179 x 2556 pixels screen. It has a dynamic island design on the front. The back camera is dual 48+12 Megapixel with various advanced features and fine image processing capability with 4K video recording. The selfie camera is dual 12 MP and SL 3D camera."
+    },
+    {
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2022/09/Apple-iPhone-14-Plus.jpg.webp",
+      "price": 449.99,
+      "name": "Apple iPhone 14 Plus",
+      "type": "Mid-range",
+      "processor": "Apple A15 Bionic (5 nm)",
+      "memory": {
+        "ram": "4GB",
+        "storage": "128/256/512GB"
+      },
+      "os": "iOS 16",
+      "details": "Apple iPhone 14 Plus comes with a 6.7 inches Super Retina XDR OLED Full HD+ screen. It has a classical Apple iPhone notch design. The back camera is of dual 12+12 MP with powerful image processing capability and 4K video recording. The front one is of Dual 12 MP and SL 3D camera."
+    },
+    {
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2021/10/Apple-iPhone-13-Pro-image.jpg.webp",
+      "price": 279.99,
+      "name": "Apple iPhone 13 Pro",
+      "type": "Budget",
+      "processor": "Apple A15 Bionic (5 nm)",
+      "memory": {
+        "ram": "6GB",
+        "storage": "128/256/512GB"
+      },
+      "os": "iOS 15",
+      "details": "Apple iPhone 13 Pro comes with a 6.7 inches Super Retina XDR OLED Full HD+ screen. It has a classical Apple iPhone notch design. The back camera is of dual 12+12 MP with powerful image processing capability and 4K video recording. The front one is of Dual 12 MP and SL 3D camera."
+    },
+    {
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2021/10/Apple-iPhone-13-image.jpg.webp",
+      "price": 699.99,
+      "name": "Apple iPhone 13",
+      "type": "Flagship",
+      "processor": "Apple A15 Bionic (5 nm)",
+      "memory": {
+        "ram": "4GB",
+        "storage": "128/256/512GB"
+      },
+      "os": "iOS 15",
+      "details": "Apple iPhone 13 comes with a 6.1 inches Super Retina XDR OLED Full HD+ screen. It has a classical Apple iPhone notch design. The back camera is of dual 12+12 MP with powerful image processing capability and 4K video recording. The front one is of Dual 12 MP and SL 3D camera."
+    }
+  ]
+  

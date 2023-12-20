@@ -25,8 +25,8 @@ const MainLayout = () => {
                             </label>
                         </div>
                         <div className="flex-1 px-2 mx-2">
-                            <img className="md:w-20" src={logo} alt="" />
-                            <h3 className="md:text-3xl text-xl font-semibold">Mobile Shop</h3>
+                            <img className="md:w-20 w-12" src={logo} alt="" />
+                            <h3 className="md:text-3xl text-lg font-semibold">Mobile Shop</h3>
                         </div>
                         <div className="flex-none hidden lg:block">
                             <ul className="menu menu-horizontal font-medium">
@@ -38,7 +38,7 @@ const MainLayout = () => {
                     {/* Page content here */}
                     <Outlet />
                 </div>
-                <div className="drawer-side">
+                <div className="drawer-side z-50">
                     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-80 min-h-full bg-[#c8d6e5] font-medium">
                         {/* Sidebar content here */}
