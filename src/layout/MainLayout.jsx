@@ -8,6 +8,7 @@ const MainLayout = () => {
 
     const navBars = <>
         <li><NavLink to={"/"}>Home</NavLink></li>
+        <li><NavLink to={"/all-products"}>All Phones</NavLink></li>
         <li><NavLink to={"/about"}>About</NavLink></li>
     </>
 
