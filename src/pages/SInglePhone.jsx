@@ -5,10 +5,9 @@ import {
 const SInglePhone = () => {
     const phoneData = useLoaderData();
 
-    console.log(phoneData);
 
     return (
-        <div className="container md:px-0 sm:px-5 px-3">
+        <div className="container mx-auto md:px-0 sm:px-5 px-3 md:mt-14 mt-7">
             <div className="grid md:grid-cols-2 grid-cols-1 items-center">
                 <img src={phoneData?.image} alt="" />
 
@@ -21,8 +20,8 @@ const SInglePhone = () => {
 
                     <button className="btn btn-success mt-7">Add TO Cart</button>
 
-                     <p className=" pt-6">
-                    {phoneData?.details}
+                    <p className=" pt-6">
+                        {phoneData?.details}
                     </p>
                 </div>
             </div>

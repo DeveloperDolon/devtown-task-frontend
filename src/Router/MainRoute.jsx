@@ -4,6 +4,7 @@ import {
 import MainLayout from "../layout/MainLayout";
 import Home from "../pages/Home";
 import SInglePhone from "../pages/SInglePhone";
+import AllPhones from "../pages/AllPhones";
 
 const MainRoute = createBrowserRouter([
     {
@@ -19,6 +20,11 @@ const MainRoute = createBrowserRouter([
                 path: "/phone/:id",
                 loader: ({params}) => fetch(`http://localhost:5000/phone/${params.id}`),
                 element: <SInglePhone></SInglePhone>
+            },
+            {
+                path: "/all-products",
+                element: <AllPhones></AllPhones>
+
             }
         ]
     }
