@@ -3,6 +3,7 @@ import {
   } from "react-router-dom";
 import MainLayout from "../layout/MainLayout";
 import Home from "../pages/Home";
+import SInglePhone from "../pages/SInglePhone";
 
 const MainRoute = createBrowserRouter([
     {
@@ -13,6 +14,11 @@ const MainRoute = createBrowserRouter([
             {
                 path: "/",
                 element: <Home></Home>
+            },
+            {
+                path: "/phone/:id",
+                loader: ({params}) => fetch(`http://localhost:5000/phone/${params.id}`),
+                element: <SInglePhone></SInglePhone>
             }
         ]
     }
