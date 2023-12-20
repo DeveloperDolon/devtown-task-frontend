@@ -5,6 +5,7 @@ import MainLayout from "../layout/MainLayout";
 import Home from "../pages/Home";
 import SInglePhone from "../pages/SInglePhone";
 import AllPhones from "../pages/AllPhones";
+import Error10 from "../pages/ErrorPage";
 
 const MainRoute = createBrowserRouter([
     {
@@ -27,6 +28,10 @@ const MainRoute = createBrowserRouter([
 
             }
         ]
+    },
+    {
+        path: "*",
+        element: <Error10></Error10>
     }
 ])
 
