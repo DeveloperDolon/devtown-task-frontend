@@ -19,7 +19,7 @@ const MainRoute = createBrowserRouter([
             },
             {
                 path: "/phone/:id",
-                loader: ({params}) => fetch(`http://localhost:5000/phone/${params.id}`),
+                loader: ({params}) => fetch(`https://devtow-jobtask-server.vercel.app/phone/${params.id}`),
                 element: <SInglePhone></SInglePhone>
             },
             {
