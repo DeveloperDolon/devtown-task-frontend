@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import "./style.css"
 import FeaturedItems from '../components/FeaturedItems';
+import MobileAnimation from '../components/MobileAnimation';
 const Home = () => {
     return (
         <div>
@@ -26,15 +27,19 @@ const Home = () => {
             >
                 <SwiperSlide>
                     <div className='absolute md:top-[35%] top-10 sm:left-28 left-6'>
-                        <div className='deal-box p-5 text-white rounded-lg mb-5 md:text-2xl text-lg font-bold w-fit'>
-                            <h1>Mega Deal</h1>
-                        </div>
 
-                        <h1 className='md:text-6xl text-4xl font-bold  text-white pb-7'>
-                            Offer up to 50%
-                        </h1>
-                        <button className='btn btn-primary'>Buy Now</button>
+                        <div>
+                            <div className='deal-box p-5 text-white rounded-lg mb-5 md:text-2xl text-lg font-bold w-fit'>
+                                <h1>Mega Deal</h1>
+                            </div>
+
+                            <h1 className='md:text-6xl text-4xl font-bold  text-white pb-7'>
+                                Offer up to 50%
+                            </h1>
+                            <button className='btn btn-primary'>Buy Now</button>
+                        </div>
                     </div>
+
                     <img className='w-full h-full' src="https://images.samsung.com/is/image/samsung/assets/us/12172023/Fold5_Dec_Offer_ETI_Cyber_Week_HP-Hero-Carousel-DT-1440x640.jpg?imwidth=1366" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -67,6 +72,10 @@ const Home = () => {
 
             <div className="container mx-auto md:px-0 sm:px-5 px-3">
                 <FeaturedItems></FeaturedItems>
+            </div>
+
+            <div className="container mx-auto md:px-0 sm:px-5 px-3">
+                <MobileAnimation></MobileAnimation>
             </div>
         </div>
     );
