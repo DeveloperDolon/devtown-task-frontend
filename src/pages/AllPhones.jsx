@@ -6,7 +6,7 @@ import MobileCard from "../components/MobileCard";
 const AllPhones = () => {
     const [search, setSearch] = useState(null);
 
-    const { data } = useQuery({
+    const { data, isLoading } = useQuery({
         queryKey: ["access-phones", search],
         queryFn: async () => {
             const res = await axiosSecure.get(`/all-phones?searchQuery=${search}`);
@@ -18,6 +18,7 @@ const AllPhones = () => {
         setSearch(e);
     }
 
+
     return (
         <div className="container mx-auto">
             <div className=" mt-8">
@@ -26,12 +27,19 @@ const AllPhones = () => {
                     <button type="submit" className="md:py-4 py-3 md:px-8 px-4 md:text-lg text-base font-semibold rounded-r-lg text-white bg-lime-500 shadow-lg">Search</button>
                 </div>
             </div>
+            {
+                isLoading ? 
+                    <div className="min-h-screen w-full flex justify-center items-center">
+                        <span className="loading loading-ring loading-lg"></span>
+                    </div>
+                :
 
-            <div className="grid 2xl:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-14 gap-7">
+                <div className="grid 2xl:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-14 gap-7">
                 {
                     data?.map(item => <MobileCard key={item?._id} data={item}></MobileCard>)
                 }
             </div>
+            }
 
         </div>
     );
