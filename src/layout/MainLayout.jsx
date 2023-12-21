@@ -3,6 +3,7 @@ import {
     Outlet
 } from "react-router-dom";
 import logo from "../assets/logoimg.png";
+import Footer from "../components/Footer";
 
 const MainLayout = () => {
 
@@ -38,6 +39,7 @@ const MainLayout = () => {
                     </div>
                     {/* Page content here */}
                     <Outlet />
+                    <Footer></Footer>
                 </div>
                 <div className="drawer-side z-50">
                     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
