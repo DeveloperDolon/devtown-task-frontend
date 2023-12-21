@@ -14,7 +14,7 @@ const MainLayout = () => {
     </>
 
     return (
-        <div>
+        <div id="navbar">
 
             <div className="drawer">
                 <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
